@@ -16,12 +16,12 @@
     overflow-y: hidden;
     display: flex;
     scroll-behavior: smooth;
-    scrollbar-width: none;
+    /*scrollbar-width: none;*/
 }
 
-    .scroll-wrapper::-webkit-scrollbar {
+    /*.scroll-wrapper::-webkit-scrollbar {
         display: none;
-    }
+    }*/
 
 .timeline {
     display: flex;
