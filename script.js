@@ -32,6 +32,21 @@ const datosCronologicos = [
         imagenes: []
     },
     {
+        titulo: "Introducción",
+        año: "",
+        texto:
+            "Esta es una infografía en formato de línea de tiempo que refleja un resumen sobre el Proceso histórico de la ingeniería"
+            + " usando tecnologías como: HTML, CSS, JS y GitHub (Pages)"
+            + "<br>"
+            + "<br>"
+            + "Nota: la página aun no cuenta con un sistema responsivo, por lo que"
+            + "<br>"
+            + "recomiendo verlo en un computador a resolución Full HD (1920x1080)"
+        ,
+        centeredTexto: true,
+        imagenes: []
+    },
+    {
         titulo: "Ingeniería Primitiva",
         año: "20.000 a.C.",
         texto:
@@ -56,7 +71,9 @@ const datosCronologicos = [
             "El desarrollo de la ingeniería como tal, comenzó en Asia Menor y África, cuando los hombres se asentaron con modestas edificaciones "
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: [
+            "https://i.blogs.es/85f8a9/casas-del-neolitico/650_1200.jpeg"
+            , "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sioux_Tipi_by_Karl_Bodmer_1833.jpg"]
     },
     {
         titulo: "Ingeniería Antigua: Era de las Estructuras ",
@@ -69,7 +86,7 @@ const datosCronologicos = [
             + "Construir edificaciones estables era un desafío."
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: ["https://www.creaf.cat/sites/default/files/wp-featured-images/Madan_portada_23.jpg"]
     },
     {
         titulo: "Egipto",
@@ -81,7 +98,12 @@ const datosCronologicos = [
             + "<br> Los Maestros de Obras Ineni y Senenmut fueron expertos en la construcción de Obeliscos o Grandes Agujas del Faraón, con bloques de granito."
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: [
+            "https://www.ucm.es/quidestliber/file/papiro-1?ver=n"
+            , "https://www.worldhistory.org/img/r/p/1500x1500/86.jpg"
+            , "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Imhotep%2C_donated_by_Padisu_MET_DP164134.jpg/960px-Imhotep%2C_donated_by_Padisu_MET_DP164134.jpg"
+            ,"https://content-historia.nationalgeographic.com.es/medio/2022/10/07/imagen-de-la-piramide-escalonada-de-djoser-en-saqqara_718001eb_1280x829.jpg"
+        ]
     },
     {
         titulo: "Mesopotamia",
@@ -95,7 +117,11 @@ const datosCronologicos = [
 
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: [
+            "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/24851/images/8u0onGrS2CaKb2mVVVNA_file.jpg"
+            , "https://www.worldhistory.org/img/r/p/1500x1500/14341.jpg"
+            , "https://content-historia.nationalgeographic.com.es/medio/2019/05/07/7-maravillas-jardines-babilonia-antes_7654bcc8_1400x788.jpg"
+        ]
     },
     {
         titulo: "Grecia",
@@ -112,7 +138,12 @@ const datosCronologicos = [
 
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: [
+            "https://upload.wikimedia.org/wikipedia/commons/9/91/View_of_the_Acropolis_Athens_%28pixinn.net%29.jpg"
+            , "https://st5.depositphotos.com/13064652/74522/i/450/depositphotos_745228004-stock-photo-man-tribe-suebi-sweben-sueven.jpg"
+            , "https://upload.wikimedia.org/wikipedia/commons/6/6e/Retrato_de_un_erudito_%28%C2%BFArqu%C3%ADmedes%3F%29%2C_por_Domenico_Fetti.jpg"
+            , "https://muyinteresante.okdiario.com/wp-content/uploads/sites/5/2025/07/hallazgo-puerta-faro-de-alejandria.jpg"
+        ]
     },
     {
         titulo: "Roma",
@@ -137,7 +168,12 @@ const datosCronologicos = [
 
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXwDNojQw69IMxZs-HeSUEOCCXSDK_zsk5-Q&s"
+            , "https://content-historia.nationalgeographic.com.es/medio/2018/02/28/a325302d__1280x861.jpg"
+            , "https://upload.wikimedia.org/wikipedia/commons/4/4e/Apamea_Syria%2C_cardo_maxima.jpg"
+            , "https://upload.wikimedia.org/wikipedia/commons/d/d5/Bridge_Alcantara.JPG"
+        ]
     },
     {
         titulo: "Ingeniería Medieval: Era Feudal y Renacimiento ",
@@ -149,7 +185,12 @@ const datosCronologicos = [
             + "También se utilizó por primera vez la palabra ingeniero "
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: [
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJO0cfwRxwuY82rRxW9KjGFL1DvQeMPDTxuyrpRCybAn4XT6G57LM7S0Ux2JNqykSXI1S2pd6zZqRmek_rODXdZS9H537c_HwGXbB3ZlJM0a8sQVf1PuI-_As8o3C_qcEBR_0xyNYaxJxo/s1600/images+(71).jpg"
+            , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYo41gDJPYai9hI6pQSCUusMX224Jp3XS31Q&s"
+            , "https://sintop.wordpress.com/wp-content/uploads/2019/02/castillo-de-la-mota.jpg"
+            , "https://i.pinimg.com/474x/c4/26/26/c42626be354b423dfa5b796ea6529a65.jpg"
+        ]
     },
     {
         titulo: "Europa",
@@ -195,7 +236,12 @@ const datosCronologicos = [
             "En China desarrollan la química y la óptica, el papel, la pólvora, las primeras brújulas, la seda, entre otros. Una de sus grandes construcciones es la Gran Muralla China "
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCLOmfLsVZO9U5_hTf0hXnan96nlu-vtaew&s"
+            , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8RlvKPMk6dm3aw6BWXizskLFtT51HPHw2YQ&s"
+            , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGhC4r7DGYEFYBvHFampiCu8-Uq3UC_fViIQ&s"
+            , "https://upload.wikimedia.org/wikipedia/commons/e/ea/Court_ladies_pounding_silk_from_a_painting_%28%E6%8D%A3%E7%BB%83%E5%9B%BE%29_by_Emperor_Huizong.jpg"
+        ]
     },
     {
         titulo: "Arabia",
@@ -218,7 +264,11 @@ const datosCronologicos = [
 
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: [
+            "https://www.caixabank.com/docs/contentmedia/52106/La-maquina-de-vapor-el-motor-que-impulso-la-Revolucion-Industrial.jpg"
+            , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGhbv2FOsbcNMVqa4L6TeHehXl8LmbN3nMCw&s"
+            , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaM00tODu8EnhiJ6zvpY_4gxwA8TrNVjUwig&s"
+        ]
     },
     {
         titulo: "",
@@ -252,7 +302,11 @@ const datosCronologicos = [
             + "En Estados Unidos de América se da inicio al transporte urbano con el tranvía(1832) y luego el subterráneo, el ferrocarril fue un medio de transporte tan importante que nace la escuela de ingeniería Ferroviaria  "
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Eiffelturm.JPG/330px-Eiffelturm.JPG"
+            ,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRW_31MJqcg6dUbhMO9mVbKeaZLknibrT8UA&s"
+            ,"https://media.cnn.com/api/v1/images/stellar/prod/cnne-1514071-image-400.png?q=w_1110,c_fill"
+        ]
     },
     {
         titulo: "Era de la Ingeniería Eléctrica",
@@ -262,7 +316,12 @@ const datosCronologicos = [
             "Se produce la Segunda Revolución Industrial gracias a la electricidad como nueva fuente de energía.  "
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZGhZgxbsyr9ruem85p4wT43mqfOCe94Fx8w&s"
+            ,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjTaxvqze_BBbGTTp7BoLTphg1qs9RBQeQ9Q&s"
+            ,"https://www.tecsaqro.com.mx/wp-content/uploads/2022/03/ingenieria_electrica_1.jpg"
+            ,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqoWHOKbQzgQFWsj8Ddx3l5cqt7mowPRJ2Yg&s"
+        ]
     },
     {
         titulo: "",
@@ -291,7 +350,10 @@ const datosCronologicos = [
             "Henry Ford Crea dos modelos de automóvil incorporando la línea automática de montaje, fabricando 10 millones de unidades."
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: [
+            "https://media.ford.com/content/dam/fordmedia/North%20America/mx/2022/06/16/Henry%20Ford.jpg"
+            ,"https://www.ford.es/content/dam/guxeu/rhd/central/brochureware/experience-ford/news/our-founder/ford-ourfounder-eu-First_Model_AA_1931-16x9-2160x1215-FC.jpg.renditions.original.png"
+        ]
     },
     {
         titulo: "Era de la Ingeniería Electrónica y de la Informática",
@@ -339,11 +401,11 @@ const datosCronologicos = [
             + "- La ingeniería Genética donde se logra la decodificación del Código Genético "
             + "<br>"
             + "- Bio-Medicina donde se ven prótesis 3D "
-            + "- <br>"
+            + "<br>"
             + "- Cyborgs donde se combina el hombre con la maquina"
-    ,
-    centeredTexto: false,
-    imagenes: []
+        ,
+        centeredTexto: false,
+        imagenes: []
     },
     {
         titulo: "Era de la Socioingeniería",
@@ -351,9 +413,9 @@ const datosCronologicos = [
         texto:
 
             "Se aborda la necesidad de construir entorno a la sociedad, la naturaleza y el medio ambiente, donde se destaca el uso de energías renovables "
-    ,
-    centeredTexto: false,
-    imagenes: []
+        ,
+        centeredTexto: false,
+        imagenes: []
     },
     {
         titulo: "Era de la Globalización",
@@ -361,9 +423,24 @@ const datosCronologicos = [
         texto:
 
             "Se da el desafío a los ingenieros de ser Inter o Multi disciplinarios, combinando conocimientos específicos a su área con otros como medicina, economía, etc. "
-    ,
-    centeredTexto: false,
-    imagenes: []
+        ,
+        centeredTexto: false,
+        imagenes: []
+    },
+    {
+        titulo: "Referencias",
+        año: "Febrero 2026",
+        texto:
+            "Esta infografía está basada en:"
+            + "<br>"
+            + "<br>"
+            + "Cuevas, A., Amarilla, A., Meza, R., & Corvalán, R. (2019). Había una vez: historia de la Ingeniería . http://dx.doi.org/10.30972/eitt.503724"
+            + "<br>"
+            + "<br>"
+            + "El conjunto de imágenes usadas aquí, son inserciones mediante enlace, por lo que cada una tiene su referencia a su origen "
+        ,
+        centeredTexto: true,
+        imagenes: []
     }
     //{
     //    titulo: "",
