@@ -19,7 +19,7 @@
     /*scrollbar-width: none;*/
 }
 
-    /*.scroll-wrapper::-webkit-scrollbar {
+/*.scroll-wrapper::-webkit-scrollbar {
         display: none;
     }*/
 
@@ -57,11 +57,10 @@
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100vh; /* Ocupa la mitad de la pantalla para dejar espacio al punto */
-    width: 80vh;
-    text-align: center;
+    width: 80vw;
 }
 
 .dot {
@@ -77,24 +76,44 @@
     transform: translate(-50%, -50%);
 }
 
-
-
 .content h2 {
+    position: absolute;
     font-size: 3.5vw;
+    top: 1%;
+    text-align: center;
+}
+
+.ano {
+    position: absolute;
+    font-size: 2vw;
     margin-bottom: 100px;
     top: 20%;
+    text-align: center;
 }
 
 .content p {
+    position: absolute;
     font-size: 1.2rem;
     color: #94a3b8;
-    max-width: 100%;
-    text-align: center;
+    max-width: 60%;
+    text-align: left;
+    top: 35%;
 }
+
+    .content p.p_centered {
+        position: absolute;
+        font-size: 1.2rem;
+        color: #94a3b8;
+        max-width: 80%;
+        text-align: center;
+        top: 30%;
+    }
 
 
 /* Contenedor del mosaico */
 .mosaico {
+    position: absolute;
+    top: 60%;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columnas */
     grid-gap: 20px;
