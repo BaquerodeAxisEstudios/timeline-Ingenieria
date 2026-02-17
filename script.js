@@ -260,7 +260,7 @@ const datosCronologicos = [
             "Desde el descubrimiento de América y el Novísimo mundo(Australia 1770), hasta la revolución francesa."
             + "<br>"
             + "<br>"
-            + "Se destaca la creacion de dispositivos para trabajos repetitivos y la conversion de energia en movimiento"
+            + "Se destaca la creacion de dispositivos para trabajos repetitivos y la conversión de energia en movimiento"
 
         ,
         centeredTexto: false,
@@ -378,7 +378,7 @@ const datosCronologicos = [
             + "- Inicia la exploración espacial "
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1IoTp0eNGl3zchDjVxqbPces3SZx4qO6xoQ&s"]
     },
     {
         titulo: "Era de la Biotecnología y la Bioingeniería",
@@ -405,7 +405,7 @@ const datosCronologicos = [
             + "- Cyborgs donde se combina el hombre con la maquina"
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: ["https://static.nationalgeographicla.com/files/styles/image_3200/public/01-dna-nationalgeographic_2490526.jpg?w=1600"]
     },
     {
         titulo: "Era de la Socioingeniería",
@@ -425,7 +425,7 @@ const datosCronologicos = [
             "Se da el desafío a los ingenieros de ser Inter o Multi disciplinarios, combinando conocimientos específicos a su área con otros como medicina, economía, etc. "
         ,
         centeredTexto: false,
-        imagenes: []
+        imagenes: ["https://www.csrconsulting.com.mx/wp-content/uploads/2022/01/globalizaci-n.jpeg"]
     },
     {
         titulo: "Referencias",
@@ -457,7 +457,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const timeline = document.getElementById('timeline-container');
     const wrapper = document.querySelector('.scroll-wrapper');
 
-    // 2. Generar el contenido automáticamente
+    // 2.1
+
+
+    // 2.2 Generar el contenido automáticamente
     datosCronologicos.forEach(item => {
         // 1. Crear el contenedor principal del hito
         const section = document.createElement('section');
